@@ -10,7 +10,7 @@ table 50100 "Patient Admission Form"
         {
             Caption = 'Admission No';
             DataClassification = CustomerContent;
-            //Editable = false;
+            Editable = false;
             trigger OnValidate()
             var
                 HospitalSetup: Record "Hospital Setup";

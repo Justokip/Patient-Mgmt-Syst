@@ -1,7 +1,7 @@
 table 50113 "CuesGrp"
 {
     DataClassification = ToBeClassified;
-    Caption = 'DAISY HEALTHCARE';
+    Caption = 'JUSTUS HEALTHCARE';
 
     fields
     {
