@@ -16,7 +16,7 @@
             "enableSqlInformationDebugger": true,
             "tenant": "default",
             "usePublicURLFromServer": true,
-            //"schemaUpdateMode": "ForceSync"
+            "schemaUpdateMode": "ForceSync"
         }
     ]
 }

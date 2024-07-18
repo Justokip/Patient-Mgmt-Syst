@@ -18,7 +18,7 @@ page 50109 "Patient Form"
                     field("Admission No"; Rec."No.")
                     {
                         ApplicationArea = All;
-                       // Editable = false;
+                        Editable = false;
                         ToolTip = 'Specifies the value of the Admission No field.';
                     }
                     field("First Name"; Rec."First Name")

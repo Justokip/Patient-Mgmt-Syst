@@ -9,7 +9,7 @@ table 50120 "Receipt Lns"
         {
             DataClassification = CustomerContent;
             Caption = 'Receipt Code';
-           // Editable = false;
+            // Editable = false;
         }
         field(2; "Description"; text[100])
         {
@@ -104,7 +104,7 @@ table 50120 "Receipt Lns"
 
     keys
     {
-        key(pk; "Rcpt Code", LineNo)
+        key(pk; LineNo)
         {
             Clustered = true;
         }
