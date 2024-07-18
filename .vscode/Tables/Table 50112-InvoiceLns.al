@@ -104,7 +104,7 @@ table 50112 "Invoice Lns"
 
     keys
     {
-        key(pk; "Invoice Code", LineNo)
+        key(pk;LineNo)
         {
             Clustered = true;
         }
